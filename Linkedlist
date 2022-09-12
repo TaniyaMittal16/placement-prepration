@@ -1,0 +1,194 @@
+Insert time complexity in arraylist - O(N)
+In arraylist search time complexity - O(1)
+
+1 -> 2 -> 3 -> 4 -> Null // LINKEDLIST
+ 
+* PROPERTIES OF LINKEDLIST - 
+1- Variable size
+2- Non-contigous memory
+3- insert in O(n)
+4- search in O(1)
+
+-> In linkedlist to track a first node 
+
+* LinkedList Class Implementation (Collection Framework) - 
+
+import java.util.*;
+public class LL {
+    public static void main(String[] args){
+        LinkedList<String> list = new LinkedList<String>();
+        list.add("1");
+        list.add("2");
+        list.addLast("3");
+        list.add("5");
+        list.addFirst("4");
+        
+        
+        // System.out.println(list.get(0));
+        // System.out.println(list.size());
+        
+        // list.remove(3);
+        // list.removeFirst();
+        // list.removeLast();
+        
+        System.out.println(list);
+    }
+}
+
+// OUTPUT - [4, 1, 2, 3, 5]
+
+import java.util.*;
+public class LL {
+    public static void main(String[] args){
+        LinkedList<String> list = new LinkedList<String>();
+        list.add("1");
+        list.add("2");
+        list.addLast("3");
+        list.add("5");
+        list.addFirst("4");
+        
+        
+        // System.out.println(list.get(0));
+        // System.out.println(list.size());
+        
+        list.remove(3);
+        list.removeFirst();
+        list.removeLast();
+        
+        System.out.println(list);
+    }
+}
+// OUTPUT - [1, 2]
+
+// SCRATCH IMPLEMENTATION
+
+class LL {
+    Node head;
+    private int size;
+    
+    LL(){
+        size = 0;
+    }
+    public class Node {
+        String data;
+        Node next;
+        
+        Node(String data){
+            this.data = data;
+            this.next = null;
+            size++;
+        }
+    }
+    
+    // ADDFIRST
+    public void addFirst(String data){
+        Node newNode = new Node(data);
+        newNode.next = head;
+        head = newNode;
+    }
+    // ADDLAST
+    public void addLast(String data){
+        Node newNode = new Node(data);
+        if(head == null){
+            head = newNode;
+            return;
+        }
+        
+        Node lastNode = head;
+        while(lastNode.next != null){
+            lastNode = lastNode.next;
+        }
+        lastNode.next = newNode;
+    }
+    public void printList(){
+        Node currNode = head;
+        while(currNode != null){
+            System.out.println(currNode.data+"->");
+        }
+        System.out.println("Null");
+    }
+    
+    // REMOVEFIRST
+    public void removeFirst(String data){
+        if(head == null){
+            System.out.println("Empty List");
+            return;
+        }
+        head = this.head.next;
+        size--;
+    }
+    
+    // REMOVELAST
+    public void removeLast(){
+        if(head == null){
+            System.out.println("Empty List");
+            return;
+        }
+        size--;
+        if(head.next == null){
+            head = null;
+            return;
+        }
+        
+        Node currNode = head;
+        Node lastNode = head.next;
+        while(lastNode.next != null){
+            currNode = currNode.next;
+            lastNode = lastNode.next;
+        }
+        currNode.next = null;
+    }
+    public int getSize(){
+        return size;
+    }
+    public static void main(String[] args){
+        LL list = new LL();
+        list.addLast("1");
+        // list.printList();
+        list.addLast("2");
+        list.addFirst("5");
+        // list.printList();
+        list.addFirst("7");
+        
+        System.out.println(list.getSize());
+    }
+}
+
+// HOW TO INSERT A MIDDLE OF THE LINKEDLIST
+
+public void addMiddle(int index, String data){
+    if(index > size || index < 0){
+        System.out.println("Invalid Index");
+        return;
+    }
+    size++;
+    Node newNode = new Node(data);
+    if(head == null || index == 0){
+        newNode.next = head;
+        head = newNode;
+        return;
+    }
+    Node currNode = head;
+    for(int i=1;i<size;i++){
+        if(i == index){
+            Node newNode = currNode.next;
+            currNode.next = newNode;
+            newNode.next = nextNode;
+            break;
+        }
+        currNode = currNode.next;
+    }
+    
+    // LinkedList class 
+    
+    import java.util.*;
+class LL{
+    public static void main(String[] args){
+        LinkedList<String> list = new LinkedList<String>();
+        list.addFirst("I");
+        list.addFirst("LOVE");
+        list.addFirst("You");
+        System.out.println(list);
+        
+    }
+}
