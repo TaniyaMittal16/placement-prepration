@@ -1,0 +1,311 @@
+Q-1. What are the differences between an object-oriented programming language and object-based programming language?
+
+ANS -> Object-oriented languages adhere to all Object Oriented Programming concepts, but object-based languages do not adhere to all Object Oriented Programming concepts such as inheritance, polymorphism, etc.
+Object-oriented languages lack built-in objects, but object-based languages do. For example, JavaScript contains a built-in window object.
+Java, C#, Smalltalk, and others are examples of object-oriented programming languages while JavaScript, VBScript, and others are examples of object-based languages.
+
+Q-2. Explain Aggregation vs Composition in Java.
+ANS -> An association is a relationship that exists between two distinct classes and is established through their Objects. One-to-one, one-to-many, many-to-one, and many-to-many associations are all possible.
+An Object communicates with other Objects to leverage the capabilities and services provided by that object in Object-Oriented programming. Association has two forms and they are composition and aggregation.
+Aggregation is a unique type of association in which:
+
+-It denotes a Has-A relationship.
+-It's a one-way relationship or a unidirectional association.
+-In Aggregation, both entries can persist independently, implying that terminating one entity will have no influence on the other.
+
+Q-3. What are the differences between error and exception in Java?
+ANS -> An error occurs when a user performs an unauthorised action that causes the code to behave abnormally. Errors in programming are frequently unnoticed until the code is compiled or run. Some of the errors make it impossible to compile or run a program. 
+As a result, errors should be removed before compiling and running a program. Out of memory and system crash are two examples of errors.
+
+In Java, an exception is an unwelcome or unexpected occurrence that occurs during the program execution, or during run time, and disturbs the usual flow of the program's instructions. 
+Exceptions are circumstances that arise during the program execution and may result in Q-4 termination. However, try, catch, and throw keywords can be used to recover them.
+
+Q-4.  Differentiate between strings and char arrays in Java?
+ANS -> STRINGS :
+A string is a sequential collection of characters that are represented as a single data type.	A Character Array is a collection of char data types in sequential order.
+Strings are immutable which means the data or state of a String object can't be modified once it has been created; instead, a new String object is generated.	Character Arrays are mutable which means the contents of a char array can be changed.
+Strings can be used with built-in functions like substring() and charAt().	In Java, there are no built-in functions for working with Character Arrays.
+The '+' operator can be used to join two strings together to generate a new one.	Appending two Character Arrays with '+' is not possible.
+The charAt() method is used to access characters in a String at a specific index.	[] can be used to access the characters in a Character Array in the same way it can in any other language.
+Strings can be stored in memory in any manner.	Character Array elements are sequentially stored at increasing memory places.
+The String Constant Pool contains all Strings.	The Heap contains all Character Arrays.
+The toCharArray() function of the String class can be used to transform a String into a Character Array.
+
+Eg: String s = “GEEKS”;
+
+char [] ch = s.toCharArray();
+
+Q-5. Explain precondition and postcondition to a member function in the context of C++ programming language.
+ANS -> About Wipro
+Wipro Limited is a prominent global information technology, consulting, and business process services firm (NYSE: WIT, BSE: 507685, NSE: WIPRO). Wipro uses cognitive computing, hyper-automation, robots, cloud, analytics, and emerging technologies to assist its clients in successfully adapting to the digital environment. It has over 200,000 dedicated employees servicing clients across six continents and is known globally for its extensive offering of services, a strong commitment to sustainability, and excellent corporate citizenship. We find new ideas and connect the dots to create a better and more courageous future.
+
+A career at Wipro is an opportunity to realise your full potential, progress consistently, and work on cutting-edge technology alongside some of the industry's brightest brains. Wipro is an exciting workplace because of its inspirational blend of growth potential, ongoing innovation, fair play, and great work culture. Wipro's ability to provide every employee with the freedom to learn, grow, and create their own career path distinguishes it as an organization with no boundaries. Wipro believes the only way to achieve company efficiency is through people and their innovation expertise.
+
+Wipro is the place for you if you have the passion, talent, and ability to work with cutting-edge technology. Please see the list below for the eligibility requirements.
+
+Eligibility Criteria:
+
+Candidates with a B.E./B.Tech degree or a 5-year integrated M.Tech degree are eligible.
+Except for Fashion Technology, Textile Engineering, Agriculture, and Food Technology, all branches are permitted to appear for the recruitment process.
+The offer is conditional on all backlogs being cleared.
+A maximum of three years of an educational gap will be permitted (10th to graduation)
+60 percent or higher in tenth grade and twelfth grade.
+Graduation: 60% or 6.0 CGPA or equivalent, as determined by your university's requirements.
+In this article
+1. Wipro Recruitment Process
+2. Wipro Technical Interview Questions: Freshers and Experienced
+3. Wipro Interview Preparation
+4. Wipro Coding Questions
+5. Frequently Asked Questions
+Wipro Recruitment Process
+Interview Process
+The Wipro Recruitment Process generally consists of three rounds of selection:
+
+Online assessment round
+Technical interview round
+HR interview round.
+Interview Rounds
+Online Assessment Round
+
+The online assessment test is the first step in the recruitment process. The candidates who clear this round are called for the technical interview rounds. The test is divided into 3 sections:
+
+Aptitude: The Aptitude Test is the initial step in the Wipro hiring process. This round is broken down into three sections:
+Quantitative Aptitude: The candidate's mathematical abilities will be tested in this phase. Time, Speed & Distance, Number Series, Simple & Compound Interest, Probability, Permutation & Combination, Ratios & Proportions, and Percentages are all covered in the Quantitative Aptitude section.
+Logical Reasoning: The portion will assess the candidate's ability to think critically and logically. In this part, you will be asked questions about the following topics: Coding, Decoding, Series, Analogy and Visual Reasoning, Data Sufficiency, Data Interpretation, ​Data Arrangements, Logical Word Sequence, ​Statements and Inferences, ​Inequalities.
+Verbal Ability: This section will assess the candidates' English abilities. The following subjects will be the focus of the questions in this section:  Error-Spotting, Sentence Improvement, Sentence Completion, and Para-Jumbles among others.
+Essay writing: An Essay Writing test is included in the writing portion, and it can be based on any topic or scenario. Candidates must write a 200-400 word essay on the assigned topic. It's also a computer-based examination. A good Wipro essay will feature the following: Excellent planning (structure of the essay), Proper phrasing (grammar, punctuations, and spelling errors), and good vocabulary.
+Coding: Candidates can take the coding assessment in any of the following programming languages: Java, C, C++, or Python. Fundamentals of Programming must be mastered in at least one programming language of his/her choice. Generally, two or three coding questions are asked in this round. The following are the topics that must be mastered: Decision Making, Looping, Functions,  Arrays, and Strings.
+The online assessment round can be skipped for experienced folks based on company requirements and job profiles.
+
+Technical Interview Round
+
+Candidates who pass the online assessment round will be called to face-to-face technical interviews.
+Your technical abilities are evaluated during a technical interview, which is usually related to the technical knowledge required for the position that you have applied for. The questions will put your problem-solving and numerical reasoning skills to the test. Interviewers are interested in how candidates approach problems, construct their thought process, and display personal qualities such as communication, in addition to technical knowledge (which is vital).
+The technical face-to-face interview is the most crucial step in the process. You should be familiar with computer fundamentals such as OOPS, DBMS, CN,  OS, etc, and be able to explain them to the interviewer. It is necessary to be familiar with a programming language. Make sure you know at least one programming language. You do not need to be fluent in all programming languages, but at least one, such as C++, Java, or Python, should be familiar to you. You can be asked to write code too. Your problem-solving skills will also be evaluated by the interviewer. You'll be asked about your previous projects and professional experiences, including what you did, how you employed technology, and how successful you were.
+The number of technical interviews to be conducted will be based on your performances in previous rounds, job profile, and company requirements.
+HR interview round
+
+Every organization conducts an HR interview round to assess your personality, strengths, shortcomings, and ability to handle the task, as well as to assess your background and determine if you're the ideal fit for this position. The HR round will be held for candidates who have cleared the technical interview.  They can also ask questions about Wipro’s history, including when it was created, its goals, principles, and organizational structure, among other things.
+
+Examine your resume to ensure that you have included all relevant information about yourself and that the information you have provided is accurate to the best of your knowledge. Prepare yourself to respond to any question that may be posed based on your résumé. Be confident and truthful about anything you answer. If you're preparing for an HR interview, you can expect to be asked some of the following questions:
+
+Please tell me about yourself. (This is the very first question, and it will almost certainly be asked in each round of the interview. Telling the interviewer about your hobbies, skill sets, strengths, qualifications, and successes is the ideal method to answer this question. Start with your current position, achievements, past work history, and academic and personal details if you're an experienced professional.)
+What is your expectation with respect to this role?
+Why are you interested in working for Wipro?
+Are you willing to relocate to various parts of India?
+Tell me about your internships and projects.
+Why are you looking for a job change? (This is a popular question among experienced professionals looking for a change. The simplest way to respond to this question is to say that you are leaving your current job to pursue a promotion. Make sure you don't criticize or undermine the company where you're now employed.)
+Wipro Technical Interview Questions: Freshers and Experienced
+1. What makes a macro faster than a function in the C programming language?
+Macros are sections of code in a programme that have been given a name. The compiler substitutes this name with the real piece of code whenever it encounters this name. To define a macro, use the '#define' directive. Macros can be defined either before or within the main method. 
+
+Code 1:
+
+//C
+#include<stdio.h>  
+#include<conio.h>  
+#define HRS 24      //Macro  
+int main()  
+{  
+    printf("%d", HRS);  
+    return 0;  
+}   
+Output:
+
+24
+Explanation:
+
+In the above code, we defined a macro named HRS to have a value of 24. Now, when we call the macro in the printf function, 24 gets printed in the output terminal.
+
+The above code can be inferred to be the following code without the use of macros.
+
+Code 2:
+
+//C
+#include<stdio.h>  
+int hrs()  
+{  
+    return 24;  
+}  
+int main()  
+{  
+    printf("%d", hrs());  //calling  
+    return 0;  
+}  
+Output :
+
+ 24
+Explanation:
+
+Here, we defined a function named HRS. When we call the HRS function in the printf function, the function returns 24 and so 24 is printed on the output terminal.
+
+Macros are pre-processed, which implies that all macros are processed before the code is compiled, and functions are processed after the code is compiled.
+
+2. What are the differences between an object-oriented programming language and object-based programming language?
+The following are the main differences between object-oriented and object-based languages.
+
+Object-oriented languages adhere to all Object Oriented Programming concepts, but object-based languages do not adhere to all Object Oriented Programming concepts such as inheritance, polymorphism, etc.
+Object-oriented languages lack built-in objects, but object-based languages do. For example, JavaScript contains a built-in window object.
+Java, C#, Smalltalk, and others are examples of object-oriented programming languages while JavaScript, VBScript, and others are examples of object-based languages.
+
+3. What do you understand about order of precedence and associativity in Java, and how do you use them?
+Order of precedence:
+
+The operators are arranged in order of precedence. When a number of operators are employed in an expression, the priorities of the operators determine how the expression is evaluated. In an expression containing multiple operators with various precedences, operator precedence decides which one is executed first.
+
+Order of precedence example:
+
+(4 > 2 + 8 && 3)
+The following expression is the same as:
+
+((4 > (2 + 8)) && 3) 
+The expression (2 + 8) will be executed first, yielding a value of 10.
+
+After the first half of the equation (4 > 10) executes, the output is 0 (false).
+
+Finally, (0 && 3) runs and returns 0. (false).
+
+Associativity:
+When two operators with the same precedence exist in an expression, associativity is employed. Left to right or right to left associativity is possible. To determine whether an expression is evaluated from left to right or right to left, associativity is used.
+
+Associativity example:
+
+ 12 * 2 / 4  
+Operators * and / have the same precedence in this case. "*" and "/" are both left to right associative, which means that the expression on the left is executed first and then moves to the right.
+
+As a result, the preceding expression is identical to:
+
+((12 * 2) / 4)  
+i.e., (12 * 2) executes first and the result will be 24 (true)  
+then, (24 / 4) executes and the final output will be 6 (true) 
+CATEGORY	OPERATOR	ASSOCIATIVITY
+Postfix	++ – –	Left to right
+Unary	+ – ! ~ ++ – –	Right to left
+Multiplicative	* / %	Left to right
+Additive	+ –	Left to right
+Shift	<< >>	Left to right
+Relational	< <= > >=	Left to right
+Equality	== !=	Left to right
+Bitwise AND	&	Left to right
+Bitwise XOR	^	Left to right
+Bitwise OR	|	Left to right
+Logical AND	&&	Left to right
+Logical OR	||	Left to right
+Conditional	?:	Right to left
+Assignment	= += -= *= /= %=>>= <<= &= ^= |=	Right to left
+4. How can you make a request for garbage collection in Java?
+There are two ways to ask the JVM to run the Garbage Collection.
+
+The garbage collection methods are available in the Runtime class given by Java. For any Java program code, the Runtime class is a singleton. A singleton instance of the Runtime class is returned by the function getRuntime(). This instance of Runtime can be used to call the gc() function to request garbage collection.
+Request the JVM to perform GC using the System class System.gc() function.
+ public class Sample
+{
+    public static void main(String[] args) throws InterruptedException
+    {
+        Sample s1 = new Sample();
+        Sample s2 = new Sample();
+          
+        // Making the reference variable as null
+        s1 = null;
+          
+        // Calling the system call function for garbage collection
+        System.gc();
+          
+        // Making the reference variable as null
+        s2 = null;
+          
+        // Calling for garbage collection through the getRuntime() method
+        Runtime.getRuntime().gc();
+      
+    }
+      
+    @Override
+    // This method is called on object once before garbage collecting it
+    protected void finalize() throws Throwable
+    {
+        System.out.println("Garbage collector has been called");
+        System.out.println("The Object whose garbage has been collected is : " + this);
+    }
+}
+Output:
+
+Garbage collector has been called
+The Object whose garbage has been collected is : Sample@4251f172
+Garbage collector has been called
+The Object whose garbage has been collected is : Sample@481e8172
+Explanation:
+
+In the above code, we create two instances of a class and then re-initialize it to null. Then we call for the garbage collection using the two methods specified above. Thus, we get the above output.
+
+5. Explain Aggregation vs Composition in Java.
+An association is a relationship that exists between two distinct classes and is established through their Objects. One-to-one, one-to-many, many-to-one, and many-to-many associations are all possible.
+
+An Object communicates with other Objects to leverage the capabilities and services provided by that object in Object-Oriented programming. Association has two forms and they are composition and aggregation.
+
+Aggregation is a unique type of association in which:
+
+It denotes a Has-A relationship.
+It's a one-way relationship or a unidirectional association.
+In Aggregation, both entries can persist independently, implying that terminating one entity will have no influence on the other.
+
+In the above image, we can clearly see that each teacher is associated with a college, and each student is also associated with a college. Thus, both the entities, the student and the teacher can exist independently. 
+
+Composition is a type of Aggregation in which two entities are extremely reliant on one another.
+
+It denotes a part-of-relationship.
+Both entities are reliant on one another in composition.
+When two entities come together to form a composition, the composite object cannot exist without the other.
+
+In the above image, we can clearly see that both Tyre and Engine form an integral part of a vehicle. Both are reliant on each other. Without either of them, the Vehicle entity is useless.
+
+6. What are the differences between error and exception in Java?
+An error occurs when a user performs an unauthorised action that causes the code to behave abnormally. Errors in programming are frequently unnoticed until the code is compiled or run. Some of the errors make it impossible to compile or run a program. As a result, errors should be removed before compiling and running a program. Out of memory and system crash are two examples of errors.
+
+In Java, an exception is an unwelcome or unexpected occurrence that occurs during the program execution, or during run time, and disturbs the usual flow of the program's instructions. Exceptions are circumstances that arise during the program execution and may result in its termination. However, try, catch, and throw keywords can be used to recover them.
+
+Unchecked exceptions (exceptions which are not checked at compile time), such as ArrayIndexOutOfBoundException, are known to the compiler at runtime, whereas checked exceptions (exceptions which are checked at compile time), such as IOException, are known to the compiler at compile time.
+
+Errors	Exceptions
+It is not feasible to recover from an error during compilation and execution.	Exceptions can be recovered by utilising a try-catch block or by throw keyword.
+In Java, all errors are of the unchecked type.	There are exceptions for both checked and unchecked types.
+The environment in which the code is running is the most common cause of errors.	Exceptions are generated by the code itself.
+Errors can arise both at compile and run time.
+
+Compile Time: eg Syntax Error
+
+Run Time: Logical Error.
+
+All exceptions occur at runtime.
+Errors are defined in the java.lang.Error package.	Exceptions are defined in the java.lang.Exception package
+Examples : java.lang.StackOverflowError, java.lang.OutOfMemoryError	Examples : Checked Exceptions : SQLException, IOException Unchecked Exceptions : ArrayIndexOutOfBoundException, NullPointerException, ArithmeticException.
+7. Differentiate between strings and char arrays in Java.
+Strings	Character Arrays
+A string is a sequential collection of characters that are represented as a single data type.	A Character Array is a collection of char data types in sequential order.
+Strings are immutable which means the data or state of a String object can't be modified once it has been created; instead, a new String object is generated.	Character Arrays are mutable which means the contents of a char array can be changed.
+Strings can be used with built-in functions like substring() and charAt().	In Java, there are no built-in functions for working with Character Arrays.
+The '+' operator can be used to join two strings together to generate a new one.	Appending two Character Arrays with '+' is not possible.
+The charAt() method is used to access characters in a String at a specific index.	[] can be used to access the characters in a Character Array in the same way it can in any other language.
+Strings can be stored in memory in any manner.	Character Array elements are sequentially stored at increasing memory places.
+The String Constant Pool contains all Strings.	The Heap contains all Character Arrays.
+The toCharArray() function of the String class can be used to transform a String into a Character Array.
+
+Eg: String s = “GEEKS”;
+
+char [] ch = s.toCharArray();
+
+The code above converts a string into a char array.
+
+A String Constructor can be used to transform a Character Array to a String.
+
+Eg: char[] a = {‘G’, ‘E’, ‘E’, ‘K’, ‘S’};
+
+String A = new String(a);
+
+The code above converts a char array into a string.
+
+8. Explain precondition and postcondition to a member function in the context of C++ programming language.
+A precondition is a condition that must be met before a member function may be called. If preconditions are never false, a class is appropriately used. If a precondition fails to hold, the following function is not executed. 
+For example, before inserting an element into a stack, we call the isfull() to check if the stack is full or not. Here, the isfull() is an example of a precondition.
+
+A post-condition is a condition that must be true when a member function is exited if the precondition was true when the function was entered. For a code to be correctly implemented, the post-conditions must never be false For example, we know that isempty() must always hold after placing an element onto the stack. 
+This is a push operation post-condition
