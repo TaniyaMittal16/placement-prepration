@@ -1,0 +1,20 @@
+Q-1 BIG INTEGERS (Write an SQL query to report the name, population, and area of the big countries.)
+
+ANS -> SELECT name,population,area FROM world WHERE area >= 3000000 OR population >= 25000000.
+
+Q-2 Recyclable and Low Fat Products (Write an SQL query to find the ids of products that are both low fat and recyclable.)
+
+ANS -> SELECT A.product_id FROM PRODUCTS A,PRODUCTS B
+WHERE
+A.product_id = B.product_id
+AND
+A.low_fats = B.recyclable
+AND
+A.low_fats = 'Y'
+
+Q-3 Find Customer Referee (Write an SQL query to report the names of the customer that are not referred by the customer with id = 2)
+
+ANS -> SELECT name FROM customer WHERE referee_Id != 2 OR referee_Id IS NULL;
+
+Q-4. 
+
